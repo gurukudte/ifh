@@ -1,11 +1,7 @@
 "use client";
-import { Button } from "@mui/material";
 import React from "react";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-type Props = {};
-
-export const Links = (props: Props) => {
+export const Links = () => {
   return (
     <div className=" flex flex-col md:flex-row gap-5 items-center justify-center">
       <a
@@ -18,7 +14,6 @@ export const Links = (props: Props) => {
           width={150}
           className="rounded-md"
           xmlns="http://www.w3.org/2000/svg"
-          {...props}
         >
           <path d="m0 0h2500v887.28h-2500z" fill="#e23744" />
           <path
@@ -36,7 +31,6 @@ export const Links = (props: Props) => {
           height={48}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          {...props}
         >
           <rect width={207} height={48} rx={12} fill="#25D366" />
           <g clipPath="url(#a)">
